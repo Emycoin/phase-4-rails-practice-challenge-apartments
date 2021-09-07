@@ -21,6 +21,7 @@ t6 = Tenant.create(name: "Jen Scott", age: 21)
 t7 = Tenant.create(name: "Bobbie Harry", age: 29)
 t8 = Tenant.create(name: "Reha bronsky", age: 29)
 
+
 Lease.create(apartment_id: a1.id, tenant_id: t1.id, rent: 1200)
 Lease.create(apartment_id: a2.id, tenant_id: t2.id, rent: 2200)
 Lease.create(apartment_id: a3.id, tenant_id: t3.id, rent: 1000)
